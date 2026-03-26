@@ -1,79 +1,88 @@
-<h1 align="center">Hi 👋, I'm Akshay Kumar BM</h1>
-<h3 align="center">AI Engineer </h3>
+<div align="center">
 
-<img align="right" alt="coding" width='400' src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+# Akshay Kumar BM
 
-- 👨‍💻 Explore my work: [Portfolio & Projects](https://akshaykumarbedre.github.io)
-- 💬 Ask me about: **Python, GenAI,Agentic Application, LangChain, LangGraph, RAG, LLMs, MLOps, Vector DBs, FastAPI, AutoGen**
-- 🧠 Latest Work: Built invoice processing chatbots, fine-tuned vision models, and created RAG systems with LLaMA 3.1 & Ollama.
-- 📫 Reach out: **akshaykumarbedre.bm@gmail.com**
+**Senior AI Engineer** — Production Multi-Agent Systems
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/akshay-kumar-bm)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:akshaykumarbedre.bm@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat)](https://akshay-kumar-bm.github.io)
+[![Open to Remote](https://img.shields.io/badge/Remote-Open%20to%20Roles-22c55e?style=flat)](#)
+
+</div>
 
 ---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/akshay-kumar-bm" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akshay-kumar-bm" height="30" width="40" />
-  </a>
-</p>
+## About
 
-<h3 align="left">Tech Stack & Tools:</h3>
-<p align="left">
-  <!-- Languages & Backend -->
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org/" target="_blank">
-    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank">
-    <img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" width="40" height="40"/>
-  </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" width="40" height="40"/>
-  </a>
-  
-  <!-- AI/ML/GenAI -->
+I design and ship **production multi-agent systems** — from architecture to evaluation. My day-to-day is deep in agent orchestration with LangChain/LangGraph, building and integrating **MCP servers**, crafting precise system prompts, and running **agent evaluation pipelines** to ensure reliability before anything hits prod.
 
-  <a href="https://pytorch.org/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://langchain.com/" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/139588633?s=200&v=4" width="40" height="40"/>
-  </a>
-  <a href="https://ollama.com/" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/150401660?s=200&v=4" width="40" height="40"/>
-  </a>
-  <a href="https://www.tensorflow.org/" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="40" height="40"/>
-  </a>
-  
-  <!-- Tools & Infra -->
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/>
-  </a>
-  <a href="https://cloud.google.com/run" target="_blank">
-    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="40" height="40"/>
-  </a>
-  <a href="https://github.com/features/actions" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40"/>
-  </a>
-  
-  <!-- Databases -->
+I care about agents that actually work — not just demos. That means robust tool design, deterministic routing, failure handling, and measurable quality.
 
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40"/>
-  </a>
-  <a href="https://github.com/facebookresearch/faiss" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/695951?s=200&v=4" width="40" height="40"/>
-  </a>
+---
 
-</p>
+## Core Expertise
 
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=akshaykumarbedre&show_icons=true&locale=en&layout=compact" alt="akshaykumarbedre" />
-</p>
+| Area | What I work on |
+|---|---|
+| **Agent Architecture** | Multi-agent pipelines, autonomous agents, tool use, LangGraph state machines |
+| **MCP Servers** | Custom MCP server development, tool schema design, enterprise integrations |
+| **Prompting** | System prompt engineering, chain-of-thought, structured output, prompt versioning |
+| **Agent Evaluation** | Eval framework design, LLM-as-judge, regression testing, tracing & observability |
+| **LLM Infrastructure** | RAG pipelines, vector DBs, embedding strategies, retrieval optimization |
 
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akshaykumarbedre&" alt="akshaykumarbedre" />
-</p>
+---
+
+## Tech Stack
+
+`Python` `LangChain` `LangGraph` `FastAPI` `MCP` `OpenAI` `Anthropic Claude`
+`RAG` `Vector DBs` `Prompt Engineering` `Agent Evals` `Docker` `REST APIs`
+
+---
+
+## Open Source
+
+I contribute to projects where I can add **real, lasting value** — not just quick fixes. Areas I focus on:
+
+- 🔌 **MCP servers & tooling** — custom integrations, tool schema design, server patterns
+- 🧩 **Agent frameworks** — LangGraph, LangChain, evaluation tooling
+- 📊 **LLM observability & evals** — tracing, scoring, reliability testing
+- 🗂️ **RAG & retrieval infrastructure**
+
+If you're a maintainer in these spaces and want a contributor who understands production constraints — let's connect.
+
+---
+
+## Featured Projects
+
+| Project | Description |
+|---|---|
+| [**AutoInsight-AI**](https://github.com/akshay-kumar-bm/AutoInsight-AI) | LLM-powered automated data analysis and insight generation |
+| [**Invoice Extraction Pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Intelligent document parsing with vision models and structured extraction |
+| [**Stack Chatbot AI**](https://github.com/akshay-kumar-bm/stack_chatbot_AI) | RAG-based Q&A system over technical documentation |
+| [**Intelligent Inventory Management**](https://github.com/akshay-kumar-bm/End-to-End-Intelligent-Inventory-Management-System) | End-to-end AI-driven inventory forecasting and management |
+
+---
+
+## GitHub Activity
+
+<div align="center">
+
+![Streak](https://streak-stats.demolab.com?user=akshay-kumar-bm&theme=github-light&hide_border=true)
+
+
+</div>
+
+---
+
+## Looking For
+
+Remote-first **Senior AI Engineer** roles in multi-agent systems, LLM infrastructure, or AI platform engineering.
+
+📬 **akshaykumarbedre.bm@gmail.com**
+
+---
+
+<div align="center">
+<sub>Bengaluru, India 🇮🇳 · Available globally · 551+ contributions in the last year</sub>
+</div>
