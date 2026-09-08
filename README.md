@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/akshay-kumar-bm)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:akshaykumarbedre.bm@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat)](https://akshay-kumar-bm.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat)](https://www.akshaykumarbm.tech)
 [![Open to Remote](https://img.shields.io/badge/Remote-Open%20to%20Roles-22c55e?style=flat)](#)
 
 </div>
