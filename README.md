@@ -2,87 +2,46 @@
 
 # Akshay Kumar BM
 
-**Senior AI Engineer** — Production Multi-Agent Systems
+**Senior AI Engineer** · Production AI agents, MCP servers & evals
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/akshay-kumar-bm)
+[![Portfolio](https://img.shields.io/badge/Case_studies-akshaykumarbm.tech-0f6e57?style=flat)](https://www.akshaykumarbm.tech)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-akshay--kumar--bm-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/akshay-kumar-bm)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:akshaykumarbedre.bm@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111827?style=flat)](https://www.akshaykumarbm.tech)
-[![Open to Remote](https://img.shields.io/badge/Remote-Open%20to%20Roles-22c55e?style=flat)](#)
 
 </div>
 
 ---
 
-## About
+I build AI agents that run in production, not just in demos. Three of my agents run in production for a Fortune 500 pharmaceutical client's SRE team:
 
-I design and ship **production multi-agent systems** — from architecture to evaluation. My day-to-day is deep in agent orchestration with LangChain/LangGraph, building and integrating **MCP servers**, crafting precise system prompts, and running **agent evaluation pipelines** to ensure reliability before anything hits prod.
+- **Observability Copilot**: plain-English questions over Grafana, Loki and Prometheus through a custom MCP server I wrote. One of the top 10 most-used tools across the SRE team.
+- **Anomaly Watch agent**: monitors production logs continuously. 72% of what it flags is a confirmed production issue.
+- **Alert RCA agent**: starts when a Grafana alert fires, reads the logs and metrics, and posts the likely root cause.
 
-I care about agents that actually work — not just demos. That means robust tool design, deterministic routing, failure handling, and measurable quality.
+The work I care about is the layer around the model: the tools it can reach, the access it's given, the human checkpoints and the evals that prove it still works.
 
----
+## Open source
 
-## Core Expertise
-
-| Area | What I work on |
+| Project | What it does |
 |---|---|
-| **Agent Architecture** | Multi-agent pipelines, autonomous agents, tool use, LangGraph state machines |
-| **MCP Servers** | Custom MCP server development, tool schema design, enterprise integrations |
-| **Prompting** | System prompt engineering, chain-of-thought, structured output, prompt versioning |
-| **Agent Evaluation** | Eval framework design, LLM-as-judge, regression testing, tracing & observability |
-| **LLM Infrastructure** | RAG pipelines, vector DBs, embedding strategies, retrieval optimization |
+| [**universal-api-mcp**](https://github.com/akshay-kumar-bm/universal-api-mcp) | Remote MCP server on Cloudflare Workers. Agents call any HTTPS API with credentials they never see, with per-host allowlists and human approval for destructive calls. |
+| [**excel-mcp-server**](https://github.com/akshay-kumar-bm/excel-mcp-server) | MCP server for reading, writing and analysing Excel files with AI agents. |
+| [**agent-prompt-refinement**](https://github.com/akshay-kumar-bm/agent-prompt-refinement) | Automatic prompt-improvement loop for agents using LLM-based evaluation. |
+| [**rl-scheduling-env**](https://github.com/akshay-kumar-bm/rl-scheduling-env) | OpenEnv RL environment for meeting scheduling. Meta PyTorch OpenEnv Hackathon, Top 100 of 31,000+. |
+| [**invoice-extraction-pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Multimodal invoice and document extraction (10 min → under 1 min per document). |
 
----
+## Stack
 
-## Tech Stack
+**Agents:** Claude Agent SDK · MCP · LangGraph · LangChain · multi-agent pipelines
+**Evals:** LLM-as-judge · regression suites · tracing
+**Retrieval:** RAG · FAISS · Chroma
+**Observability:** Grafana · Loki · Prometheus · Jaeger
+**Platform:** Python · FastAPI · Docker · Kubernetes · AWS · GCP · GitHub Actions
 
-`Python` `LangChain` `LangGraph` `FastAPI` `MCP` `OpenAI` `Anthropic Claude`
-`RAG` `Vector DBs` `Prompt Engineering` `Agent Evals` `Docker` `REST APIs`
+## Recognition
 
----
+- 1st place, AMD AI Sprint 2025 at IISc
+- Top 100 of 31,000+, Meta PyTorch OpenEnv Hackathon
+- Participant, Guinness World Record agentic AI hackathon (Google Cloud × Hack2skill)
 
-## Open Source
-
-I contribute to projects where I can add **real, lasting value** — not just quick fixes. Areas I focus on:
-
-- 🔌 **MCP servers & tooling** — custom integrations, tool schema design, server patterns
-- 🧩 **Agent frameworks** — LangGraph, LangChain, evaluation tooling
-- 📊 **LLM observability & evals** — tracing, scoring, reliability testing
-- 🗂️ **RAG & retrieval infrastructure**
-
-If you're a maintainer in these spaces and want a contributor who understands production constraints — let's connect.
-
----
-
-## Featured Projects
-
-| Project | Description |
-|---|---|
-| [**AutoInsight-AI**](https://github.com/akshay-kumar-bm/AutoInsight-AI) | LLM-powered automated data analysis and insight generation |
-| [**Invoice Extraction Pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Intelligent document parsing with vision models and structured extraction |
-| [**Stack Chatbot AI**](https://github.com/akshay-kumar-bm/stack_chatbot_AI) | RAG-based Q&A system over technical documentation |
-| [**Intelligent Inventory Management**](https://github.com/akshay-kumar-bm/End-to-End-Intelligent-Inventory-Management-System) | End-to-end AI-driven inventory forecasting and management |
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-![Streak](https://streak-stats.demolab.com?user=akshay-kumar-bm&theme=github-light&hide_border=true)
-
-
-</div>
-
----
-
-## Looking For
-
-Remote-first **Senior AI Engineer** roles in multi-agent systems, LLM infrastructure, or AI platform engineering.
-
-📬 **akshaykumarbedre.bm@gmail.com**
-
----
-
-<div align="center">
-<sub>Bengaluru, India 🇮🇳 · Available globally · 551+ contributions in the last year</sub>
-</div>
+<sub>Bengaluru, India · I write about MCP, evals and agent guardrails on LinkedIn.</sub>
