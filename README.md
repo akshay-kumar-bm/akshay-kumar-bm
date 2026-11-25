@@ -25,8 +25,6 @@ The work I care about is the layer around the model: the tools it can reach, the
 | Project | What it does |
 |---|---|
 | [**universal-api-mcp**](https://github.com/akshay-kumar-bm/universal-api-mcp) | Remote MCP server on Cloudflare Workers. Agents call any HTTPS API with credentials they never see, with per-host allowlists and human approval for destructive calls. |
-| [**excel-mcp-server**](https://github.com/akshay-kumar-bm/excel-mcp-server) | MCP server for reading, writing and analysing Excel files with AI agents. |
-| [**agent-prompt-refinement**](https://github.com/akshay-kumar-bm/agent-prompt-refinement) | Automatic prompt-improvement loop for agents using LLM-based evaluation. |
 | [**rl-scheduling-env**](https://github.com/akshay-kumar-bm/rl-scheduling-env) | OpenEnv RL environment for meeting scheduling. Meta PyTorch OpenEnv Hackathon, Top 100 of 31,000+. |
 | [**invoice-extraction-pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Multimodal invoice and document extraction (10 min → under 1 min per document). |
 
