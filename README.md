@@ -27,7 +27,7 @@ The work I care about is the layer around the model: the tools it can reach, the
 | Project | What it does |
 |---|---|
 | [**prosper-voice-windows**](https://github.com/shipengineai/prosper-voice-windows) | Voice dictation and an AI assistant for any Windows app: speak to type, edit selected text by voice, add the screen as context, MCP tools with per-call approval. Runs for about $1–1.5 a month in API costs. |
-| [**Omnigate**](https://github.com/akshay-kumar-bm/universal-api-mcp) | One remote MCP server for any HTTP API. Every common auth scheme is handled server-side, so agents never see a credential. Multi-step workflows run in a single tool call, with per-host allowlists and human approval for destructive calls. |
+| [**Omnigate**](https://github.com/akshay-kumar-bm/omnigate) | One remote MCP server for any HTTP API. Every common auth scheme is handled server-side, so agents never see a credential. Multi-step workflows run in a single tool call, with per-host allowlists and human approval for destructive calls. |
 | [**rl-scheduling-env**](https://github.com/akshay-kumar-bm/rl-scheduling-env) | OpenEnv RL environment for meeting scheduling. Meta PyTorch OpenEnv Hackathon, Top 100 of 31,000+. |
 | [**invoice-extraction-pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Multimodal invoice and document extraction (10 min → under 1 min per document). |
 
