@@ -24,6 +24,7 @@ The work I care about is the layer around the model: the tools it can reach, the
 
 | Project | What it does |
 |---|---|
+| [**prosper-voice-windows**](https://github.com/shipengineai/prosper-voice-windows) | Voice dictation and an AI assistant for any Windows app: speak to type, edit selected text by voice, add the screen as context, optional MCP tools with per-call approval. One ~130 KB exe, no admin rights. |
 | [**universal-api-mcp**](https://github.com/akshay-kumar-bm/universal-api-mcp) | Remote MCP server on Cloudflare Workers. Agents call any HTTPS API with credentials they never see, with per-host allowlists and human approval for destructive calls. |
 | [**rl-scheduling-env**](https://github.com/akshay-kumar-bm/rl-scheduling-env) | OpenEnv RL environment for meeting scheduling. Meta PyTorch OpenEnv Hackathon, Top 100 of 31,000+. |
 | [**invoice-extraction-pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Multimodal invoice and document extraction (10 min → under 1 min per document). |
