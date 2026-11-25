@@ -18,21 +18,23 @@ I build AI agents that run in production, not just in demos. Three of my agents 
 - **Anomaly Watch agent**: monitors production logs continuously. 72% of what it flags is a confirmed production issue.
 - **Alert RCA agent**: starts when a Grafana alert fires, reads the logs and metrics, and posts the likely root cause.
 
+I also deployed and run **Langfuse** for these agents: every run is traced, success and failure rates are tracked, and LLM-as-judge evaluators check the output.
+
 The work I care about is the layer around the model: the tools it can reach, the access it's given, the human checkpoints and the evals that prove it still works.
 
 ## Open source
 
 | Project | What it does |
 |---|---|
-| [**prosper-voice-windows**](https://github.com/shipengineai/prosper-voice-windows) | Voice dictation and an AI assistant for any Windows app: speak to type, edit selected text by voice, add the screen as context, optional MCP tools with per-call approval. One ~130 KB exe, no admin rights. |
-| [**universal-api-mcp**](https://github.com/akshay-kumar-bm/universal-api-mcp) | Remote MCP server on Cloudflare Workers. Agents call any HTTPS API with credentials they never see, with per-host allowlists and human approval for destructive calls. |
+| [**prosper-voice-windows**](https://github.com/shipengineai/prosper-voice-windows) | Voice dictation and an AI assistant for any Windows app: speak to type, edit selected text by voice, add the screen as context, MCP tools with per-call approval. Runs for about $1–1.5 a month in API costs. |
+| [**Omnigate**](https://github.com/akshay-kumar-bm/universal-api-mcp) | One remote MCP server for any HTTP API. Every common auth scheme is handled server-side, so agents never see a credential. Multi-step workflows run in a single tool call, with per-host allowlists and human approval for destructive calls. |
 | [**rl-scheduling-env**](https://github.com/akshay-kumar-bm/rl-scheduling-env) | OpenEnv RL environment for meeting scheduling. Meta PyTorch OpenEnv Hackathon, Top 100 of 31,000+. |
 | [**invoice-extraction-pro**](https://github.com/akshay-kumar-bm/invoice-extraction-pro) | Multimodal invoice and document extraction (10 min → under 1 min per document). |
 
 ## Stack
 
 **Agents:** Claude Agent SDK · MCP · LangGraph · LangChain · multi-agent pipelines
-**Evals:** LLM-as-judge · regression suites · tracing
+**Evals:** LLM-as-judge · regression suites · Langfuse tracing
 **Retrieval:** RAG · FAISS · Chroma
 **Observability:** Grafana · Loki · Prometheus · Jaeger
 **Platform:** Python · FastAPI · Docker · Kubernetes · AWS · GCP · GitHub Actions
